@@ -22,10 +22,6 @@ function EmiForm({ setData }) {
       totalInterest: totalInterest.toFixed(2),
       totalPayment: totalPayment.toFixed(2),
     });
-
-    setLoan("");
-    setInterest("");
-    setTenure("");
   };
   return (
     <>
