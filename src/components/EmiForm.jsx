@@ -4,7 +4,7 @@ function EmiForm({ setData }) {
   let [loan, setLoan] = useState("");
   let [interest, setInterest] = useState("");
   let [tenure, setTenure] = useState("");
-  let [tenureType, setTenureType] = useState("");
+  let [tenureType, setTenureType] = useState("years");
 
   const handleSubmit = (e) => {
     e.preventDefault();
